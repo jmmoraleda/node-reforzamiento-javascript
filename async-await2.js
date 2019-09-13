@@ -57,6 +57,6 @@ let getInformacion = async(id) => {
 }
 
 
-getInformacion(3)
+getInformacion(2)
     .then(mensaje => console.log(mensaje))
     .catch(err => console.log(err));

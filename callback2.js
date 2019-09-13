@@ -23,7 +23,7 @@ let getEmpleado = (id, callback) => {
     let empleadoDB = empleados.find(empleado => empleado.id === id)
 
     if (!empleadoDB) {
-        callback(`No existe un empleado con el ID ${ id }`)
+        callback(`No existe un empleado con el ID ${ id }`);
     } else {
         callback(null, empleadoDB);
     }
